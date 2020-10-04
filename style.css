@@ -1,0 +1,196 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Header part start here */
+header {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.nav {
+    width: 50%;
+    float: right;
+}
+.nav-ul {
+    list-style: none;
+}
+.nav-ul-li {
+    float: left;
+    margin-left: 76px;
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    }
+/* header parts end here */
+
+/* banner parts start here */
+
+.banner {
+    width: 90%;
+    margin: auto;
+}
+.banner img {
+    width: 100%;
+}
+/* Photodiary start here */
+
+.photodiary {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+.photodiary h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+}
+.photodiary h1 {
+    padding: 35px 0;
+    font-size: 30px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.photodiary p {
+    color: #626262;
+    font-size: 14px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+
+.lifestyle ,.photodiaries {
+    width: 80%;
+    margin: auto;
+}
+.lifestyle-content , .photodiaries-content {
+    overflow: hidden;
+    padding-top: 100px;
+}
+.lifestyle-one img , .lifestyle-two img ,.photodiaries-one img, .photodiaries-two img{
+    width: 100%;
+}
+.lifestyle-one h6 , .lifestyle-two h6 ,.photodiaries-one h6, .photodiaries-two h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: #b5b0a4;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lifestyle-one h1 , .lifestyle-two h1 ,.photodiaries-one h1, .photodiaries-two h1{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #626262;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.lifestyle-one p ,.lifestyle-two p ,.photodiaries-one p, .photodiaries-two p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.lifestyle-one ,.photodiaries-one {
+    width: 45%;
+    float: left;
+}
+.lifestyle-two , .photodiaries-two{  
+    width: 45%;    
+    float: right;
+}
+.news-latter {
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    position: relative;
+    margin-top: 100px;
+}
+.news {
+    padding-top: 50px;
+    width: 30%;
+    margin: auto;
+    position: relative;
+}
+.news h1 {
+    font-size: 31px;
+    font-family: 'Playfair Display', serif;
+}
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 40px;
+    outline: none;
+    font-family: 'Playfair Display', serif;
+}
+.icon {
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+}
+
+.load-more {
+    height: 200px;
+    width: 100%;
+}
+.load-more h1 {
+    
+    width: 15%;
+    padding: 15px;
+    border: 1px solid #626262;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+footer {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.footer-content {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding: 30px 0;
+}
+.term-condition {
+    float: left;
+}
+.term-condition ul{
+
+}
+.term-condition ul li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+
+}
+.follow {
+    float: right;
+}
+.follow ul {
+
+}
+.follow ul li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
